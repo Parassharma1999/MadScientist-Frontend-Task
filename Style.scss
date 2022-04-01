@@ -1,0 +1,23 @@
+@import "./Partials/Navbar";
+@import "./Partials/Card";
+@import "./Partials/MianPage";
+@import "./Partials/Option";
+@import url('http://fonts.cdnfonts.com/css/myriad-pro');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Myriad pro;
+    font-weight: 200;
+}
+
+.Container{
+  background-color: rgba(211, 211, 211, 0.756);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

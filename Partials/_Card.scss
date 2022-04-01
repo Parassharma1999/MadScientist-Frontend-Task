@@ -1,0 +1,128 @@
+.CardWrapper{
+ display: flex;
+ flex-direction: column;
+ border:1.5px solid rgb(193, 184, 187);
+ padding:0.2rem 0.2rem 0 0.2rem;
+ border-radius: 10px;
+ overflow: hidden;
+}
+
+.cardHeader{
+    display: flex;
+    flex-direction:row; 
+    // border: 1px solid red;
+
+}
+
+
+#userImage{
+  height:33px;
+  width: 33px;
+  border-radius: 5px;
+}
+
+.userDetails{
+    // height:50px;
+    display: flex;
+    flex:1;
+    flex-direction:column; 
+    // border: 1px solid black;
+    line-height: 1rem;
+    padding-left:0.5rem ;
+
+}
+
+.user{
+    display: flex;
+    flex-direction:row; 
+    align-items: center;
+}
+
+#userName{
+    font-size: 12px;
+    font-weight:510;
+}
+
+#userDesc{
+   font-size: 12px;
+   color: grey;
+   font-weight:399;
+
+}
+
+#verify{  
+    height:12px;
+    width:12px;
+    margin-left: 0.5rem;
+    color: rgb(68, 187, 173);
+}
+
+.dots{
+    height:22px;
+    width:22px;
+    color:rgba(0, 0, 0, 0.782);
+    cursor: pointer;
+}
+
+.bottom{
+    display:flex;
+}
+
+.cardIntro{
+    line-height: 1rem;
+    margin-top:0.7rem;
+    font-size:13px;
+    font-weight:501;
+    padding:0.3rem 1rem 1.3rem 0.2rem;
+    background-color: rgba(196, 194, 194, 0.322);
+}
+
+.cardDescription{
+    font-size:10px;
+    font-weight:600;
+    color:rgba(22, 22, 22, 0.884);
+    padding: 0.5rem 0;
+}
+
+
+.bottomLeft{
+  width: 60%;
+  display:flex;
+  margin-left: 0.3rem;
+  justify-content: space-between;
+}
+
+.liked{
+    background-color:white;
+    text-align: center;
+    border: 1px solid black;
+    padding:0 0.7rem;
+    border-radius: 5px;
+    font-size:11px;
+    font-weight:600;
+    height: 1rem;
+}
+
+.views{
+    font-size:11px;
+    background-color:white;
+    text-align: center;
+    border: 1px solid black;
+    padding:0 0.7rem;
+    font-weight:600;
+    border-radius: 5px;  
+    height: 1rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:0.5rem;
+}
+
+.logout{
+    height: 27px;
+    width: 27px;
+    color: rgba(0, 0, 0, 0.623);
+}
